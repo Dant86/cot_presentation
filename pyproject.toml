@@ -1,0 +1,23 @@
+[project]
+name = "cot-presentation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "transformers",
+    "datasets",
+    "jupyterlab",
+    "jinja2",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "huggingface-hub",
+    "accelerate",
+    "evaluate",
+    "tomli",
+]
+
+[tool.uv]
+package = true

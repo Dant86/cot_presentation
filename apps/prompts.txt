@@ -1,0 +1,28 @@
+prompt: zero_shot
+Question: Alice ascends 50 floors in ten minutes. Bob ascends twice as quickly as Alice. How many floors does Bob ascend in an hour?
+Answer:
+
+prompt: few_shot
+Question: Alice ascends 20 floors in ten minutes. Bob ascends twice as quickly as Alice. How many floors does Bob ascend in an hour?
+Answer: 240
+
+Question: Alice ascends 30 floors in ten minutes. Bob ascends three times as quickly as Alice. How many floors does Bob ascend in two hours?
+Answer: 1080
+
+Question: Alice ascends 50 floors in ten minutes. Bob ascends twice as quickly as Alice. How many floors does Bob ascend in an hour?
+Answer:
+
+prompt: chain_of_thought
+Question: Alice ascends 20 floors in ten minutes. Bob ascends twice as quickly as Alice. How many floors does Bob ascend in an hour?
+Reasoning: Alice ascends 20/10=2 floors in one minute. This means that Bob ascends 2*2=4 floors in one minute. There are 1*60=60 minutes in an hour, so Bob ascends 4*60=240 floors in an hour.
+Answer: 240
+
+Question: Alice ascends 80 floors in 20 minutes. Bob ascends ten times as quickly as Alice. How many floors does Bob ascend in an hour?
+Reasoning: Alice ascends 80/20=4 floors in one minute. This means that Bob ascends 10*4=40 floors in one minute. There are 1*60=60 minutes in an hour, so Bob ascends 60*40=2400 floors in an hour.
+Answer: 2400
+
+Question: Alice ascends 30 floors in ten minutes. Bob ascends five times as quickly as Alice. How many floors does Bob ascend in two hours?
+Reasoning: Alice ascends 30/10=3 floors in one minute. This means that Bob ascends 3*5=15 floors in one minute. There are 2*60=120 minutes in two hours, so Bob ascends 15*120=1800 floors in an hour.
+Answer: 1800
+
+Question: Alice ascends 50 floors in ten minutes. Bob ascends twice as quickly as Alice. How many floors does Bob ascend in an hour?
